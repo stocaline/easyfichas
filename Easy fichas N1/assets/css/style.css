@@ -67,28 +67,33 @@ p.big{
 
 main{
     height: 100%;
-    background-image: linear-gradient(to bottom, black,gray);
+    background-color: rgb(87, 206, 19);
+    /*background-image: linear-gradient(to bottom, black,gray);*/
 }
 
-p.textoSobre{
+nav.menu{
     background-color: black;
     font-size: 30px;
     text-align: center;
     font-family: impact fantasy, sans-serif;
+    overflow: hidden;
+    width: 100%;
+    
 }
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 80%;
     padding: 10px;
 
 }
 
 .grid-item{
     display: grid;
+    border-radius: 20px;
     border-style:groove;
     border-color: black;
     background-color: white;
@@ -96,27 +101,28 @@ p.textoSobre{
 }
 
 .grid-item img{
-    width: 400px;
-    grid-column: 1;
+    width: 300px;
+    grid-column: 2;
     grid-row: 1/3;
     align-self: end;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .grid-item p.titulo{
 
     font-size: 300%;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     font-family: impact fantasy, sans-serif;
     padding: 10px;
     color: green;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1/2;
 
 }
 
 .grid-item p.texto{
     margin: 10px;
+    grid-column: 1;
+    grid-row: 2;
     font-family: impact fantasy, sans-serif;
     font-size: 150%;
     text-align: center;
@@ -124,12 +130,12 @@ p.textoSobre{
     align-self: end;
 
 }
-
-/*
-div.boxCentral { 
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center; 
-    background: black; 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-*/
+
+.sticky + .grid {
+    padding-top: 100px;
+}
