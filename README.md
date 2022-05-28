@@ -1,5 +1,5 @@
 # EasyFichas
-colaboradores: 
--Gabriel Amaral
--João Haverot
--Richard de Souza Bercheli
+## Colaboradores: 
+- Gabriel Amaral
+- João Haverot
+- Richard de Souza Bercheli
