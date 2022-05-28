@@ -22,7 +22,7 @@ p{
 
 }
 
-nav {
+nav.titulo {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,17 +68,41 @@ p.big{
 main{
     height: 100%;
     background-color: rgb(87, 206, 19);
-    /*background-image: linear-gradient(to bottom, black,gray);*/
 }
 
 nav.menu{
-    background-color: black;
-    font-size: 30px;
-    text-align: center;
+    background-color: white;
+}
+
+nav.menu ul{
+    background-color: white;
     font-family: impact fantasy, sans-serif;
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
     overflow: hidden;
-    width: 100%;
-    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav.menu li{
+    float: left;
+}
+
+nav.menu a {
+    font-size: 30px;
+    display: block;
+    color: rgb(1, 151, 9);
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+nav.menu a:hover {
+    background-color: rgb(1, 100, 10);
+    color: white;
 }
 
 .grid{
@@ -87,7 +111,7 @@ nav.menu{
     grid-gap: 30px;
     margin: 0 auto;
     max-width: 80%;
-    padding: 10px;
+    padding: 30px;
 
 }
 
@@ -130,6 +154,19 @@ nav.menu{
     align-self: end;
 
 }
+
+.grid-item p.texto{
+    margin: 10px;
+    grid-column: 1;
+    grid-row: 2;
+    font-family: impact fantasy, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    align-self: end;
+
+}
+
 .sticky {
     position: fixed;
     top: 0;
