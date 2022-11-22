@@ -79,6 +79,7 @@ ul li a:hover{
 .titulo{
     font-size: 20px;
     color: white;
+    -webkit-text-stroke: 1px black;
 }
 
 .btn-cadastrar{
@@ -103,4 +104,45 @@ ul li a:hover{
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+
+h2{
+    color: #00FF29;
+}
+
+hr{
+    width: 50%;
+    margin-left: 25vw;
+}
+
+.business{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    width: 60vw;
+    position: relative;
+}
+
+.dados{
+    position: absolute;
+    width: 30vw;
+    transform: translate(55%, 50%);
+}
+
+.divFooter{
+    max-width: 50%;
+}
+
+footer img{
+    width: 100%;
+    position: absolute;
+}
+
+.conteudo-footer{
+    position: relative;
+    color: white;
+    transform: translate(20vw, 10vw);
 }
