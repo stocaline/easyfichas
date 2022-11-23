@@ -113,6 +113,7 @@ h2{
 hr{
     width: 50%;
     margin-left: 25vw;
+    margin-top: 100px;
 }
 
 .business{
@@ -145,4 +146,29 @@ footer img{
     position: relative;
     color: white;
     transform: translate(20vw, 10vw);
+}
+
+.logosTecnologia{
+    margin-left: 475px;
+    width: 50vw;
+    top: -150px;
+    position: relative;
+} 
+.logoFooter{
+    position: relative;
+    top: 350px;
+    left: 1500px;
+    width: 15vw;
+}
+.githubFooter{
+    position: relative;
+    width: 4vw;
+    left: 1350px;
+    top: 150px;
+}
+.whiteArrow{
+    position: relative;
+    width: 2vw;
+    left: 1280px;
+    top: -80px;
 }
