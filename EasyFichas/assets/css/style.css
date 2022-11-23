@@ -114,6 +114,7 @@ hr{
     width: 50%;
     margin-left: 25vw;
     margin-top: 100px;
+    margin-bottom: -120px;
 }
 
 .business{
@@ -149,26 +150,38 @@ footer img{
 }
 
 .logosTecnologia{
-    margin-left: 475px;
+    left: 24vw;
     width: 50vw;
-    top: -150px;
+    top: -10vw;
     position: relative;
 } 
 .logoFooter{
     position: relative;
-    top: 350px;
-    left: 1500px;
-    width: 15vw;
+    top: 10vw;
+    left: 10vw;
+    width: 0vw;
 }
 .githubFooter{
     position: relative;
-    width: 4vw;
-    left: 1350px;
-    top: 150px;
+    width: 5vw;
+    left: 83.5vw;
+    top: 6vw;
 }
 .whiteArrow{
     position: relative;
     width: 2vw;
-    left: 1280px;
-    top: -80px;
+    left: 80.2vw;
+    top: -6vw;
+}
+.imagemConteudoRPG{
+    position: relative;
+    margin-bottom:-100px ;
+}
+.imagemConteudoRPGcont{
+    position: relative;
+    margin-top: -100px;
+}
+.textoConteudoRPGcont{
+    position: relative;
+    margin-bottom: 100px;
 }
