@@ -8,4 +8,6 @@
 Uma solução para a criação de fichas de RPG de mesa, o programa ira tornar mais dinâmico o processo de criação de fichas.
 ## Colaboradores: 
 - João Haverot
+- Oscar André
+- Renan Prazeres
 - Richard de Souza Bercheli
